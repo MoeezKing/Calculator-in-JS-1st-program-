@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>calulator</title>
+        <style>
+        .div-1 {
+                background-color: rgb(79, 0, 128); 
+                margin: auto;
+                height: 50%;
+                width: 50%;
+                font-size: 20px; 
+                color: yellow;
+                }
+                .div-2 {
+                background-color: rgb(51, 128, 0); 
+                margin: auto;
+                height: 10%;
+                width: 50%;
+                font-size: 20px; 
+                color: rgb(0, 255, 247); 
+                }
+        </style>
+        <script src="Calculator.js"></script>
+    </head>
+    <body>
+        <h1 align="center">CALCULATOR</h1>
+        <div class="div-1">
+            <label for="input-1">Enter 1st number</label>
+            <input type="number" name="num1" value="0" id="input-1">
+            <br/>
+            <label for="input-2">Enter 2nd number</label>
+            <input type="number" name="num1" id="input-2" value="0">
+            <br/>
+            <button onclick="sum()">+ (Plus)</button>
+            <button onclick="sub()">- (Minus)</button>
+            <br/>
+            <button onclick="mul()">x (Multiple)</button>
+            <button onclick="div()">÷ (Divide)</button>
+        </div>
+
+        <div class="div-2">
+            <p  id="answer"> </p>    
+        </div>
+        <script scr="Calculator.js"></script>
+    </body>
+    <script scr="Calculator.js"></script>
+</html>
